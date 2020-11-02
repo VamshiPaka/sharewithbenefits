@@ -1,0 +1,45 @@
+.menu li{
+    display:inline;
+  }
+  .menu a{
+    color:#E4E4E4;
+    text-transform:capitalize;
+    background-color:#808080;
+    border-radius: 5px;
+    padding: 5px;
+  }
+  .main img{
+    height:220px;
+    width:1200px;
+    
+  }
+  body{
+    background-color: #E6E6E6;
+    font-family:san-serif;
+    color: #666666;
+  }
+  .main{
+    color:#666666;
+  }
+  .content{
+    color:#666666;
+  }
+  .name p{
+    display: inline;
+    padding-left: 30px;
+  }
+  .email p,input{
+    display:inline;
+    padding-left: 30px;
+    padding-right: 2px;
+    margin-top: 20px;
+  }
+  .comment p{
+    padding-left:30px;
+    margin-top:20px;
+  }
+  .comment textarea{
+    margin-left: 30px;
+    width: 300px;
+    height:200px;  
+  }

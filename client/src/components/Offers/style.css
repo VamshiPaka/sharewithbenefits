@@ -1,0 +1,60 @@
+.imagebox
+{
+    width: 250px;
+    height: 410px;
+    background-color:#00B9f1;
+    display: inline-block;
+    margin: 2%;
+    color:black;
+    border-radius: 12px;
+   
+}
+.imagebox:hover
+{
+transform: scale(1,1.5);
+}
+.image
+{
+    height: 200px;
+    width: 250px;
+    border-radius: 12px;
+}
+.text
+{
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+    color: rgba(21, 7, 22, 0.815);
+}
+.uv
+{
+    margin-top: auto;
+    margin-inline-end: auto;
+}
+
+.welcome{
+    text-align: center;
+}
+.btno {
+    transition-duration: 0.4s;
+    font-size: 16px;
+ 
+    text-align: center;
+  }
+  
+  .btno:hover {
+  
+    color: white;
+  }
+  .items{
+      display:flex;
+      flex-direction: row;
+      justify-content: space-around;
+  }
+  body{
+    background: linear-gradient(to top, #0066cc 0%, #ffffff 100%);
+    background-repeat: repeat no-repeat;
+    scroll-behavior: initial;
+    height:100%
+  }
+  

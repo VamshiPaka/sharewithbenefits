@@ -1,0 +1,49 @@
+#loginarea {
+    height: 300px;
+    max-width: 500px;
+    margin: 50px auto;
+    margin-bottom: 100px;
+}
+
+#login {
+    border: 1px solid black;
+    box-shadow: 0px 0px 1px gray;
+    padding: 20px;
+   
+height: 254px;
+}
+#email, #password{
+    padding-left: 40px;
+}
+ #iconlogin , #iconlogin2 {
+    position: relative;
+}
+
+#iconlogin i , #iconlogin2 i{
+    position: absolute;
+    top: 0px;
+    left: 2px;
+    padding: 9px;
+    font-size: 22px;
+    color: lightgray;
+}
+.acfl {
+    font-size: 11px;
+margin-top: 3px;
+font-size: 15px;
+margin-top: 15px;
+color: black;
+}
+
+.acfr {
+    font-size: 11px;
+    margin-top: 3px;
+    font-size: 15px;
+    margin-top: 10px;
+    color: black;
+}
+.btn:not(:disabled):not(.disabled) {
+    border: 1px solid aliceblue;
+    }
+/* Registration CSS */
+

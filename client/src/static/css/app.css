@@ -1,0 +1,146 @@
+#footer {
+    height: 40px;
+    background-image: url('https://olxpkstatic-a.akamaihd.net/22450d5-985/packed/img/2f5a55d0886ecadd34c360ff1ff11fc9e6.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* border-top: 1px solid rgb(203, 206, 207); */
+    padding: 210px;
+
+    font-size: 99%;
+    
+}
+
+#footer-detail {
+    height: 30px;
+    max-width: 700px;
+    margin: 0px auto;
+    color: #1c2124;
+
+    font-size: 99%;
+  
+}
+
+#form-bg {
+    height: auto;
+ 
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:15px;
+}
+
+#form-overlay {
+    height: 70px;
+    max-width: 1000px;
+    background-color: rgb(200, 223, 241);
+    margin: auto;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#search-btn {
+    
+    border: 2px solid white;
+}
+
+#ads, #location{
+    padding-left: 40px;
+}
+
+#iconform, #iconform2{
+    position: relative;
+}
+
+#iconform i, #iconform2 i{
+    position: absolute;
+    top: 0px;
+    left: 5px;
+    padding: 9px;
+    font-size: 22px;
+    color: rgb(197, 204, 209);
+}
+
+#iconform i{
+    position: absolute;
+    top: 0px;
+    left: 20px;
+    padding: 9px;
+    font-size: 22px;
+    color: lightgray;
+}
+
+#cate-item {
+    width: 95px;
+    height: 130px;
+    float: left;
+    margin: 26px;
+    color: black;
+    
+}
+#cate-item:hover 
+{
+    background-color: rgb(207, 217, 223);
+    border-radius: 10px;
+}
+
+#cate-item img {
+    margin: 5px;
+    margin-left: 20px;
+}
+
+#cate-item p {
+    font-size: 13px;
+    text-align: center;
+}
+
+#follow-us {
+    margin-top: 30px;
+    margin-left: 70px;
+     border-radius: 10px;
+
+}
+
+#follow-us p {
+    float: left;
+    padding:20px;
+}
+
+/* #follow-us img {
+    float: right;
+    padding-right: 15px;
+    margin-left: 5px;
+    margin-top: 10px;
+    
+} */
+
+/* Validation */
+.form-error {
+    color:red;
+}
+
+@media only screen and (max-width: 769px) {
+    #main-content h4{
+        margin-top: 50px;
+        text-align: center;
+    }
+    h4{
+        text-align: center;
+    }
+    
+    #form-overlay {
+        height: 150px;
+    }
+    input[type=text] {
+        height: 30px;
+        margin-right:5px;
+        margin-top: 5px;
+    }
+    #search-btn {
+        margin-top: 5px;
+        
+
+    }
+}
+small{
+
+    font-size: 99%;
+    }
